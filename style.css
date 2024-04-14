@@ -7,7 +7,8 @@ body{
 header{
     background-color: hsl(216, 29%, 17%);        
     color: white;
-    margin: 0;       
+    margin: 0;
+    width: 100%;    
 }
 /* TOP HEADER ELEMENTS */
 #top-header{    
@@ -69,10 +70,13 @@ a:visited {
     font-weight: bold;
 }
 #bot-header img{
-    width: 450px;
-    height: 250px;      
+    width: 100%;
+    height: 100%;    
 }
-
+#bot-header-img{
+    width: 450px;
+    height: 250px;
+}
 /* MAIN TOP */
 
 #main-top-h2{
@@ -95,8 +99,8 @@ a:visited {
     color: hsla(215, 28%, 17%, 0.6);
 }
 .main-top-img img{
-    width: 130px;
-    height: 130px; 
+    width: 100%;
+    height: 100%; 
 }
 .main-top-img p{
     margin-top: 5px;
